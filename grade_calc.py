@@ -1,0 +1,20 @@
+marks = []
+
+print("Student Grade Calculator")
+
+for i in range(5):
+    m = int(input("Enter mark: "))
+    marks.append(m)
+
+average = sum(marks) / len(marks)
+
+print("Average:", average)
+
+if average >= 90:
+    print("Grade A")
+elif average >= 75:
+    print("Grade B")
+elif average >= 50:
+    print("Grade C")
+else:
+    print("Fail")
