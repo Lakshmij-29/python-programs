@@ -10,3 +10,4 @@ for customer, amounts in purchases.items():
 
 top_customer = max(purchases, key=lambda x: sum(purchases[x]))
 print("Top Customer:", top_customer)
+ 
